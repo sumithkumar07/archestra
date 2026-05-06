@@ -3,6 +3,7 @@ packages:
   - "frontend"
   - "shared"
   - "e2e-tests"
+  - "mcp-servers/*"
 
 catalog:
   typescript: ^6.0.2

@@ -1,0 +1,3 @@
+          const toolName = request.params.name || "unknown";
+          throw new McpError(ErrorCode.MethodNotFound, "Unknown tool: " + toolName);
+        }
