@@ -17,6 +17,7 @@ export const InternalMcpCatalogServerTypeSchema = z.enum([
   "local",
   "remote",
   "builtin",
+  "windmill",
 ]);
 
 // Define Zod schemas for complex JSONB fields

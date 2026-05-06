@@ -1,0 +1,7 @@
+          throw new McpError(ErrorCode.MethodNotFound, "Unknown tool: " + toolName);
+        }
+      }
+    }));
+  }
+
+  private extractWorkspaceFromPath(pathOrUrl: string): string {
